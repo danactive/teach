@@ -20,14 +20,16 @@ module.exports = function(grunt) {
 			}
 		},
 		htmlmin: {                                     // Task
-			dist: {                                      // Target
+			dev: {                                      // Target
 				options: {                                 // Target options
 					removeComments: true,
 					collapseWhitespace: true
 				},
 				src: "<%=htmlhint.dev.src%>",
 				dest: "minified",
-				expand: true
+				expand: true,
+				nonull: true,
+				flatten: true
 			}
 		},
 		replace: {
@@ -40,9 +42,11 @@ module.exports = function(grunt) {
 						}
 					]
 				},
-				src: "<%=htmlmin.dist.dest%>/**/*.html",
+				src: "<%=htmlmin.dev.dest%>/**/*.html",
 				dest: "public",
-				expand: true
+				expand: true,
+				nonull: true,
+				flatten: true
 			}
 		}
 	});
