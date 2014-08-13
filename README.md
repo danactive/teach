@@ -1,9 +1,9 @@
 # Decrease Footprint
 
 ## Getting started
-**npm init** creates a new package.json [package.json doc](https://www.npmjs.org/doc/files/package.json.html)
-**npm install grunt-cli -global** install grunt CLI (commmand line interface) [Grunt.js getting started doc](http://gruntjs.com/getting-started)
-**npm install grunt --save-dev** install local grunt runner and save to the package.json
+1 **npm init** creates a new package.json [package.json doc](https://www.npmjs.org/doc/files/package.json.html)
+1 **npm install grunt-cli -global** install grunt CLI (commmand line interface) [Grunt.js getting started doc](http://gruntjs.com/getting-started)
+1 **npm install grunt --save-dev** install local grunt runner and save to the package.json
 
 ## HTML
 * Validate [HTMLHint tool](http://htmlhint.com)
