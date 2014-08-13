@@ -1,0 +1,16 @@
+{
+  "name": "DecreaseFootprint",
+  "version": "0.0.0",
+  "description": "Learn how-to optimize (concatenate and minify) static assets",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:danactive/teach.git"
+  },
+  "author": "Dan BROOKS",
+  "license": "No License",
+  "bugs": {
+    "url": "https://github.com/danactive/teach/issues"
+  },
+  "homepage": "https://github.com/danactive/teach"
+}
