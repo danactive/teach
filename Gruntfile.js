@@ -48,21 +48,11 @@ module.exports = function(grunt) {
 				nonull: true,
 				flatten: true
 			}
-		},
-		watch: { // Task
-			dev: { // Target
-				files: "<%=htmlhint.dev.src%>",
-				tasks: ['build'],
-				options: {
-					spawn: false
-				}
-			}
 		}
 	});
 
 	// Load Grunt.js plugins
 	grunt.loadNpmTasks('grunt-contrib-htmlmin');
-	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-htmlhint');
 	grunt.loadNpmTasks('grunt-replace');
 
@@ -70,6 +60,4 @@ module.exports = function(grunt) {
 	grunt.registerTask('validate', ['htmlhint']);
 
 	grunt.registerTask('minify', ['htmlmin','replace']);
-	
-	grunt.registerTask('build', ['validate', 'minify']);
 };
