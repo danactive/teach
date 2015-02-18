@@ -9,3 +9,7 @@
 ## CLI Commands
 * `grunt watch` Watch JavaScript files
 * `grunt lint` Validate JavaScript files
+
+## Examples
+* [jQuery dev](http://code.jquery.com/jquery-1.11.2.js)
+* [jQuery min](http://code.jquery.com/jquery-1.11.2.min.js)
