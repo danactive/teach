@@ -19,7 +19,7 @@ module.exports = function(grunt) {
 			}
 		},
 		watch: {
-			concat: {
+			dev: {
 				files: '<%= concat.dev.src %>',
 				tasks: ['concat', 'uglify']
 			}
