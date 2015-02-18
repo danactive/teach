@@ -12,4 +12,7 @@ describe('Mathematical formula', function(){
 			expect(maths.add(1,-20)).to.be.lessThan(1);
 		});
 	});
+	describe('Subtraction', function(){
+		// todo write tests
+	});
 });
