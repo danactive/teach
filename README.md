@@ -11,6 +11,10 @@
 * `grunt watch` Watch JavaScript files
 * `grunt bundle` Bundle JavaScript files
  
+## Examples
+* [jQuery dev](http://code.jquery.com/jquery-1.11.2.js)
+* [jQuery min](http://code.jquery.com/jquery-1.11.2.min.js)
+ 
 ## Static asset pipeline
 * Concatenation: join many files into one
 	* Reason: Lower HTTP requests. HTTP handshake is slow and consumes mobile battery and costly data
